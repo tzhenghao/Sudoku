@@ -1,2 +1,2 @@
 # Sudoku
-A Sodoku game written in C
+A Sudoku game written in C
