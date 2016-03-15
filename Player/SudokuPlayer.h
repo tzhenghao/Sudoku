@@ -3,10 +3,10 @@
 
 class SudokuPlayer : public Player {
 
-
 	private:
 
 	public:
+
 
 };
 

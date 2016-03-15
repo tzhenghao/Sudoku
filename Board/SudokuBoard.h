@@ -11,7 +11,7 @@ class SudokuBoard : public Board {
 
 		void initializeBoard();
 
-		void printBoardState();
+		void printBoard();
 };
 
 #endif

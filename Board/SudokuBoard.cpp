@@ -2,13 +2,7 @@
 #include <iostream>
 using namespace std;
 
-void Board::initializeBoardState() {
-
-	
-
-}
-
-void Board::printBoardState() {
+void Board::printBoard() {
 
 	for (int i = 0; i < board.size(); ++i) {
 
