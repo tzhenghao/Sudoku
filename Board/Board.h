@@ -8,22 +8,16 @@ class Board {
 
 	private:
 
-		// Assumption: Board can ALWAYS be represented by a 2D array.
-		vector<vector<uint8_t> > board;
 
 	public:
 
-		Board();
-
-		// Constructor with the inputBoard.
-		Board(const vector<vector<uint8_t> > inputBoard);
+		virtual Board();
 
 		// EFFECTS: Initializes the sudoku board
-		virtual void initializeBoard();
+		virtual void initializeBoard() = 0;
 
 		// EFFECTS: Prints the board state.
-		virtual void printBoardState();
-
+		virtual void printBoard() = 0;
 };
 
 
