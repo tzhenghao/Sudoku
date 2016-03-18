@@ -22,7 +22,7 @@ class SudokuVerifier : public Verifier {
 
 	public:
 
-		bool isSolutionCorrect(const sudokuBoard &sudokuBoard);
+		bool isSolutionCorrect(const SudokuBoard &sudokuBoard);
 };
 
 #endif
